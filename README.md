@@ -2,6 +2,33 @@
 
 ## Project Structure
 
+- **src/**
+  - **Components/**
+    - `Navbar.js`
+    - `Buttons.js`
+    - `Texts.js`
+    - `Quote.js`
+    - `SecondScreen.js`
+    - **Containers/**
+      - `RackUnitContainer.js`
+      - `FullRackContainer.js`
+      - `CageContainer.js`
+    - `CardSlider.js`
+    - `List.js`
+    - `Inputs.js`
+    - `Footer.js`
+    - `Card.js`
+    - `Animations.js`
+    - `Dropdown.js`
+    - `ErrorMessage.js`
+  - **Images/**
+  - **Styles/**
+    - `Global.css`
+    - `Home.css`
+
+
+## Project Structure
+
 | Directory/File       | Description                                     |
 |-----------------------|-------------------------------------------------|
 | **src**               |                                                 |
@@ -27,6 +54,75 @@
 | ├── **Styles**         | Global styles and CSS files                    |
 | │   ├── `Global.css`   | Global styles for the entire project           |
 | │   ├── `Home.css`     | Specific styles for the home component         |
+
+
+
+
+## Code Features
+
+### 1. **React Components:**
+   - `Navbar`: Navigation bar component.
+   - `Buttons`: Reusable button components (`SupportButton`, `ShopProductButton`, etc.).
+   - `Texts`: Reusable text components (`FirstScreenText1`, `FirstScreenText2`, etc.).
+   - `Quote`: Component for displaying a quoted text block.
+   - `SecondScreen`: Component for the second section of the page.
+   - **Containers:**
+     - `RackUnitContainer`: Container for Rack Unit information.
+     - `FullRackContainer`: Container for Full Rack information.
+     - `CageContainer`: Container for Cage information.
+   - `CardSlider`: Component for displaying a carousel of cards.
+   - `List`: Component for displaying a list.
+   - `Inputs`: Components for input fields.
+   - `Footer`: Footer component.
+   - `Card`: Component representing a card with information.
+   - `Animations`: CSS animations for the page.
+   - `Dropdown`: Component for a dropdown menu.
+   - `ErrorMessage`: Component for displaying error messages.
+
+### 2. **Styles:**
+   - Global styles in `Global.css`.
+   - Page-specific styles in `Home.css`.
+
+### 3. **Image Assets:**
+   - Various image assets used in the project.
+
+### 4. **Responsive Design:**
+   - Components and containers designed for responsiveness.
+
+### 5. **CSS Animations:**
+   - Utilizes CSS animations for visual effects.
+
+### 6. **Button Interactivity:**
+   - Buttons with hover effects (`NavbarMiddle`, `SupportButton`, etc.).
+
+### 7. **Server Hosting Information:**
+   - Sections providing information about server hosting solutions.
+   - Different container styles for Rack Unit, Full Rack, and Cage.
+
+### 8. **Carousel:**
+   - Implementation of a carousel/slider for displaying cards.
+
+### 9. **Form Inputs:**
+   - Input fields for email and messages.
+
+### 10. **Error Handling:**
+    - Displays error messages with red color (`ErrorMessage`).
+
+### 11. **Dropdown Menu:**
+    - Interactive dropdown menu (`Dropdown`).
+
+### 12. **Background Animations:**
+    - Background animations with the lightbulb image.
+
+### 13. **Code Organization:**
+    - Clear separation of components, styles, and images.
+
+### 14. **CSS Variables:**
+    - Uses CSS variables for color and styling consistency.
+
+### 15. **GitHub Repository Structure:**
+    - Organized project structure with `src` directory.
+
 
 
 
