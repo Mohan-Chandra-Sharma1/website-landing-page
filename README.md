@@ -1,5 +1,35 @@
 # Getting Started with Create React App
 
+## Project Structure
+
+| Directory/File       | Description                                     |
+|-----------------------|-------------------------------------------------|
+| **src**               |                                                 |
+| ├── **Components**    |                                                 |
+| │   ├── `Navbar.js`   | Navbar component                                |
+| │   ├── `Buttons.js`  | Button components (SupportButton, ShopProductButton) |
+| │   ├── `Texts.js`    | Text components (FirstScreenText1, FirstScreenText2) |
+| │   ├── `Quote.js`    | Quoted section component                        |
+| │   ├── `SecondScreen.js` | Second screen component                      |
+| │   ├── `Containers`  |                                                 |
+| │   │   ├── `RackUnitContainer.js` | Rack Unit container component         |
+| │   │   ├── `FullRackContainer.js` | Full Rack container component       |
+| │   │   ├── `CageContainer.js` | Cage container component               |
+| │   ├── `CardSlider.js` | Card slider component                         |
+| │   ├── `List.js`      | List item component                            |
+| │   ├── `Inputs.js`    | Input and button components (InputMailAddress, SendIcon, SubmitButton) |
+| │   ├── `Footer.js`    | Footer text components (HeaderFooterText, FooterText) |
+| │   ├── `Card.js`      | Card component with various elements (Card, QoutedIcon, CardTitle2, etc.) |
+| │   ├── `Animations.js`| Animation styles (up-and-down-motion, rotateAnimation) |
+| │   ├── `Dropdown.js`  | Dropdown styles (DropDownContainer, DropdownItem) |
+| │   ├── `ErrorMessage.js` | Error message component                   |
+| ├── **Images**         | Image assets used in the project               |
+| ├── **Styles**         | Global styles and CSS files                    |
+| │   ├── `Global.css`   | Global styles for the entire project           |
+| │   ├── `Home.css`     | Specific styles for the home component         |
+
+
+
 
 
 ![Screenshot 2023-11-30 005215](https://github.com/Mohan-Chandra-Sharma1/website-landing-page/assets/120721761/2675611f-dddd-4d8f-a440-8053ca462bd5)
